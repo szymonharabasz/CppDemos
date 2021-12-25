@@ -16,6 +16,7 @@
 #include "deducing_ctor_template_params.h"
 #include "function_objects_and_lambdas.h"
 #include "template_features.h"
+#include "variadic_templates.h"
 
 int main() {
     variable_initialization();
@@ -29,8 +30,8 @@ int main() {
     standard_literals();
     deducing_ctor_template_params();
     function_objects_and_lambdas();
-
     string_map<int> m;
+    variadic_templates();
 
     return 0;
 }
