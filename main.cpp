@@ -17,6 +17,7 @@
 #include "function_objects_and_lambdas.h"
 #include "template_features.h"
 #include "variadic_templates.h"
+#include "using_forward.h"
 
 int main() {
     variable_initialization();
@@ -32,6 +33,7 @@ int main() {
     function_objects_and_lambdas();
     string_map<int> m;
     variadic_templates();
+    using_forward();
 
     return 0;
 }
