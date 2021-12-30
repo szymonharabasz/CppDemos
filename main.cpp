@@ -18,6 +18,7 @@
 #include "template_features.h"
 #include "variadic_templates.h"
 #include "using_forward.h"
+#include "weak_pointers.h"
 
 int main() {
     variable_initialization();
@@ -34,6 +35,7 @@ int main() {
     string_map<int> m;
     variadic_templates();
     using_forward();
+    weak_pointers();
 
     return 0;
 }
