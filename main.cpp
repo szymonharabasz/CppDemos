@@ -20,6 +20,7 @@
 #include "using_forward.h"
 #include "weak_pointers.h"
 #include "deallocate_shared_array.h"
+#include "random_number_generation.h"
 
 int main() {
     variable_initialization();
@@ -38,6 +39,7 @@ int main() {
     using_forward();
     weak_pointers();
     deallocate_shared_array();
+    random_number_generation();
 
     return 0;
 }
