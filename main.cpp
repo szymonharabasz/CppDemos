@@ -19,6 +19,7 @@
 #include "variadic_templates.h"
 #include "using_forward.h"
 #include "weak_pointers.h"
+#include "deallocate_shared_array.h"
 
 int main() {
     variable_initialization();
@@ -36,6 +37,7 @@ int main() {
     variadic_templates();
     using_forward();
     weak_pointers();
+    deallocate_shared_array();
 
     return 0;
 }
