@@ -21,6 +21,7 @@
 #include "weak_pointers.h"
 #include "deallocate_shared_array.h"
 #include "random_number_generation.h"
+#include "erase_remove.h"
 
 int main() {
     variable_initialization();
@@ -40,6 +41,7 @@ int main() {
     weak_pointers();
     deallocate_shared_array();
     random_number_generation();
+    erase_remove();
 
     return 0;
 }
