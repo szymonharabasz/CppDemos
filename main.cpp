@@ -22,6 +22,7 @@
 #include "deallocate_shared_array.h"
 #include "random_number_generation.h"
 #include "erase_remove.h"
+#include "semantic_types.h"
 
 int main() {
     variable_initialization();
@@ -42,6 +43,7 @@ int main() {
     deallocate_shared_array();
     random_number_generation();
     erase_remove();
+    semantic_types();
 
     return 0;
 }
